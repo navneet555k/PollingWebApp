@@ -3,7 +3,7 @@
 
 ## Steps to runserver ##
 
-- First we need to get into the environment so first cd into the folder in my case it is (pollingapp).
+- First we need to get into the environment so first cd into the folder in my case it is (pollingwebapp).
 - Now to activate the environment use source env/bin/activate.
 - Now cd mysite(name of folder).
 - Now use the command "python manage.py runserver" this will activate the site 
