@@ -46,3 +46,66 @@ secret id as it might be used in some undesirable manner if needed ask me for it
 - Now LOGIN_REDIRECT_URL='http://127.0.0.1:8000/polls/' is for redirecting you to the page which should appear just after you google sign. The above is what is my redirect page.
 - This is it we are now able to sign in through google into our site.
 
+### How I Felt Doing This Project ###
++ So first of all this is the first project of my life as i am completely new to Web Development.
++ The most important thing i have learnt while doing this project is that for any problem i can trust google or youtube it helped me a lot :)
++ Sometimes when you put in effort and you get so many errors we should not get frustated and continue working again late in my case i had to create environment nearly 6-7 times to atlast get the basic model working because i was not able to resolve errors in previous environments.
++ But yes when you get things working you feel much happier than ever.
+
+### What more did i learn ###
+
+- The most valuable thing i learned was GIT which helped me when i was not anle to dragondrop more than 100 files in github. so this is a saviour.
+-
+How did I install Django ?
+So basically what I did was I had to setup a virtual env
+Pip3 install virtualenv
+In virtual env use source bin/activate to activate the virtual environment 
+Then simply use pip3 install Django
+What is a virtual environment?
+## Details regarding Django admin ##
+
+Django password: bullu@123
+Username: navneet
+
+How to create an app:-
+Python manage.py startapp (appname)
+
+Two http methods are as under:-
+post and get
+Get is for fetching the data from server
+Post is for adding new data to server
+
+To create superuser:-
+Python manage.py createsuperuser
+
+In Django model view template
+
+Template includes:
+Html 
+Css javascipt
+And dal (Django template language) for including dynamic data 
+
+
+ORM(object relational mapper)
+
+psql -U postgres
+
+
+I learnt about this but this but was of no use:-
+
+CREATE DATABASE name
+\list(list all the current databases available)
+\connect (name of database) ;
+
+To delete a database use this command
+
+DROP DATABASE (name of database);
+
+My master password for pgadmin is navneet@123
+
+To start a project:-
+
+Django-admin startproject mysite
+
+
+
