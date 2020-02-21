@@ -52,7 +52,7 @@ secret id as it might be used in some undesirable manner if needed ask me for it
 + Sometimes when you put in effort and you get so many errors we should not get frustated and continue working again late in my case i had to create environment nearly 6-7 times to atlast get the basic model working because i was not able to resolve errors in previous environments.
 + But yes when you get things working you feel much happier than ever.
 
-### What more did i learn ###
+## What more did i learn ##
 
 - The most valuable thing i learned was GIT which helped me when i was not anle to dragondrop more than 100 files in github. so this is a saviour.
 -
@@ -62,7 +62,7 @@ Pip3 install virtualenv
 In virtual env use source bin/activate to activate the virtual environment 
 Then simply use pip3 install Django
 What is a virtual environment?
-## Details regarding Django admin ##
+### Details regarding Django admin ###
 
 Django password: bullu@123
 Username: navneet
