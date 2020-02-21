@@ -8,7 +8,7 @@
 - Now cd mysite(name of folder).
 - Now use the command "python manage.py runserver" this will activate the site 
 - Now use the http provided to go to that url.
--Now you are at the main site.
+- Now you are at the main site.
 ## Procedures To follow ##
 
 - If you are reading this then you must already be at the main site if not then follow the above "Steps to runserver" to get to the main site
