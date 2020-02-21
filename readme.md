@@ -3,12 +3,17 @@
 
 ## Steps to runserver ##
 
-- First we need to get into the environment so first cd into the folder in my case it is (pollingwebapp).
-- Now to activate the environment use source env/bin/activate.
-- Now cd mysite(name of folder).
-- Now use the command "python manage.py runserver" this will activate the site 
+- First, git clone my repo <br>
+    ```git clone https://github.com/codenavneet/PollingWebApp.git```
+- Then get into the environment <br>
+    ``` cd PollingWebApp```
+- Now to activate the environment use <br>
+    ``` source env/bin/activate```
+- Then - <br>
+```cd mysite```
+- Now use the command- 
+    ```python manage.py runserver```
 - Now use the http provided to go to that url.
-- Now you are at the main site.
 ## Procedures To follow ##
 
 - If you are reading this then you must already be at the main site if not then follow the above "Steps to runserver" to get to the main site
@@ -52,23 +57,26 @@ secret id as it might be used in some undesirable manner if needed ask me for it
 + Sometimes when you put in effort and you get so many errors we should not get frustated and continue working again late in my case i had to create environment nearly 6-7 times to atlast get the basic model working because i was not able to resolve errors in previous environments.
 + But yes when you get things working you feel much happier than ever.
 
-## What more did i learn ##
+## What else did i learn ? ##
 
-- The most valuable thing i learned was GIT which helped me when i was not anle to dragondrop more than 100 files in github. so this is a saviour.
+- The most valuable thing i learned was git which helped me when i was not able to drag and drop more than 100 files in github. Git made things si much easier for me.
 -
 How did I install Django ?
 So basically what I did was I had to setup a virtual env
-Pip3 install virtualenv
-In virtual env use source bin/activate to activate the virtual environment 
-Then simply use pip3 install Django
-What is a virtual environment?
+```pip3 install virtualenv```
+In virtual env use ```source bin/activate``` to activate the virtual environment 
+Then simply use ```pip3 install Django```
+
+### What is a virtual environment? ###
+
+
 ### Details regarding Django admin ###
 
 Django password: bullu@123
 Username: navneet
 
 How to create an app:-
-Python manage.py startapp (appname)
+```Python manage.py startapp (appname)```
 
 Two http methods are as under:-
 post and get
