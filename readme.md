@@ -18,11 +18,11 @@
 
 - If you are reading this then you must already be at the main site if not then follow the above "Steps to runserver" to get to the main site
 - Now you have to login through google so select your account.
-- Now you will directly directed to the page where all the questions are.
+- Now you will directly directed to the page where all the questions are Here your usename (unique) and signout option will also be present redirecting you to the main page.
 - Now you click on the question you want to vote for.
 - Now you choose the option you want as the answer to the above question.
 - Next you will be redirected to the results page for that question where you will see which answer has got how many votes.
-- Now you have an option to vote again if you want.
+- Now you have an option to vote again or  go back to the questions page to change question and vote again if you want.
 
 ## If you want to add Questions or Choices use this procedure ##
 - Whatever you site is in my case http://127.0.0.1:8000/ change it to http://127.0.0.1:8000/polls/admin/ .
@@ -68,7 +68,7 @@ In virtual env use ```source bin/activate``` to activate the virtual environment
 Then simply use ```pip3 install Django```
 
 ### What is a virtual environment? ###
-
+A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them. This is one of the most important tools that most of the Python developers use.
 
 ### Details regarding Django admin ###
 
