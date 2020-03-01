@@ -1,7 +1,7 @@
 # Polling Web App using Oauth #
 
 
-## View Of The Projet In Images ##
+## View Of The Project In Images ##
 Page:1 (main page)
 ![image](https://user-images.githubusercontent.com/53183532/75633120-4a1bbb00-5c28-11ea-9d8f-1ddf965e2e58.png)
 Page:2 (google login)
