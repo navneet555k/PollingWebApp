@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body bgcolor="#ff9900">
+    <h2 align="right">Username : {{user}}</h2>
+    <h2 align="right"><a href="http://127.0.0.1:8000/">sign out</a></h2>
+    <h1><center>--Choose the question you want to poll for--</center></h1>
+    
+    <h3>Questions:-</h3>
     {% if latest_question_list %}
-    <ul>
+    <ol>
     {% for question in latest_question_list %}
         <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li>
     {% endfor %}
-    </ul>
+    </ol>
 {% else %}
     <p>No polls are available.</p>
 {% endif %}
+
+    
     
 </body>
 </html>
+
+

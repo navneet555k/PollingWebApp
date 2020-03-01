@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>{{ question.question_text }}</h1>
+<body bgcolor="#99ff66">
+    <h1>Thanks for voting</h1>
+    <h2>{{ question.question_text }}</h2>
 
 <ul>
 {% for choice in question.choice_set.all %}
@@ -15,6 +16,8 @@
 </ul>
 
 <a href="/polls/{{ question.id }}/">Vote again?</a>
+<br>
+<a href="http://127.0.0.1:8000/polls/">Back to the Question's page</a>
     
 </body>
 </html>

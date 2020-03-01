@@ -1,11 +1,12 @@
+{% load static %}
 {%load socialaccount%}
 {%providers_media_js%}
 <html>
     <head>
         <title>Google Registration</title>
     </head>
-    <body>
-{{user}}
-<a href="{% provider_login_url "google"%}">Google Connect</a>
+    <body bgcolor="#ccff99">
+<h1><center>Welome to my polling web app!</center></h1>
+<h1><center><a href="{% provider_login_url "google"%}">Google Connect</a><center></h1>
     </body>
 </html>
