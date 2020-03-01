@@ -1,6 +1,19 @@
 # Polling Web App using Oauth #
 
 
+## View Of The Projet In Images ##
+Page:1 (main page)
+![image](https://user-images.githubusercontent.com/53183532/75633120-4a1bbb00-5c28-11ea-9d8f-1ddf965e2e58.png)
+Page:2 (google login)
+![image](https://user-images.githubusercontent.com/53183532/75633154-7df6e080-5c28-11ea-8613-751f8950166b.png)
+Page:3 (questions)
+![image](https://user-images.githubusercontent.com/53183532/75633169-9535ce00-5c28-11ea-8496-a675f2da61ae.png)
+Page:4 (details)
+![image](https://user-images.githubusercontent.com/53183532/75633182-b5fe2380-5c28-11ea-8a9a-04733e2396ef.png)
+Page:5 (results)
+![image](https://user-images.githubusercontent.com/53183532/75633189-c57d6c80-5c28-11ea-85c4-7b4e6114ad73.png)
+
+
 ## Steps to runserver ##
 
 - First, git clone my repo <br>
@@ -114,17 +127,5 @@ My master password for pgadmin is navneet@123
 To start a project:-
 
 Django-admin startproject mysite
-
-## View Of The Projet In Images ##
-Page:1 (main page)
-![image](https://user-images.githubusercontent.com/53183532/75633120-4a1bbb00-5c28-11ea-9d8f-1ddf965e2e58.png)
-Page:2 (google login)
-![image](https://user-images.githubusercontent.com/53183532/75633154-7df6e080-5c28-11ea-8613-751f8950166b.png)
-Page:3 (questions)
-![image](https://user-images.githubusercontent.com/53183532/75633169-9535ce00-5c28-11ea-8496-a675f2da61ae.png)
-Page:4 (details)
-![image](https://user-images.githubusercontent.com/53183532/75633182-b5fe2380-5c28-11ea-8a9a-04733e2396ef.png)
-Page:5 (results)
-![image](https://user-images.githubusercontent.com/53183532/75633189-c57d6c80-5c28-11ea-85c4-7b4e6114ad73.png)
 
 
