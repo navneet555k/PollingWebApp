@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body bgcolor="#99ff66">
-    <h1>Thanks for voting</h1>
-    <h2>{{ question.question_text }}</h2>
+    <h1 style="background-color:DodgerBlue;"><center>Thanks for voting</center></h1>
+    <h2 style="background-color:pink;"><center>You Voted for this Question :{{ question.question_text }}</center></h2>
 
 <ul>
 {% for choice in question.choice_set.all %}

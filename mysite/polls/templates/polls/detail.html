@@ -4,18 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style> 
+          input[type=submit] {
+          background-color: rgb(104, 175, 76);
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-decoration: none;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        </style>
 </head>
-<body bgcolor="#0066ff">
-<h1>{{ question.question_text }}</h1>
-{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+<body bgcolor=" #b3d9ff">
+<h1 style="background-color:DodgerBlue;"><center>{{ question.question_text }}</center></h1>
+<br>
+<br>
+<br>
+{% if error_message %}<p><center><strong>{{ error_message }}</strong></center></p>{% endif %}
 
 <form action="/polls/{{ question.id }}/vote/" method="post">
 {% csrf_token %}
 {% for choice in question.choice_set.all %}
-    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
-    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
+ <center><input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br><br><br></center>
 {% endfor %}
-<input type="submit" value="Vote">
+<center><input type="submit" value="Vote"><center>
 </form>
 </body>
 </html>
