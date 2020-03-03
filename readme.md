@@ -60,8 +60,6 @@ secret id as it might be used in some undesirable manner if needed ask me for it
 - Add  client id and secret id .
 - Now LOGIN_REDIRECT_URL='http://127.0.0.1:8000/polls/' is for redirecting you to the page which should appear just after you google sign. The above is what is my redirect page.
 - This is it we are now able to sign in through google into our site.
-
-<<<<<<< HEAD
 =======
 ### How I Felt Doing This Project ###
 + So first of all this is the first project of my life as i am completely new to Web Development.
@@ -126,6 +124,3 @@ My master password for pgadmin is navneet@123
 To start a project:-
 
 Django-admin startproject mysite
-
-
->>>>>>> 7860a61c27b86ef9b47afd45d0b77397c87efa90
