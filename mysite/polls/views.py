@@ -4,7 +4,7 @@ from django.template import loader
 from django.shortcuts import render,get_object_or_404
 from django.http import Http404
 from django.urls import reverse
-
+from django.utils import timezone
 
 
 def index(request):
@@ -38,3 +38,7 @@ def vote(request, question_id):
         # with POST data. This prevents data from being posted twice if a
         # user hits the Back button.
         return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
+def split(request):
+    q = Question(question_text="hello", pub_date=timezone.now())
+    context = {'q': q}
+    return render(request, 'polls/split.html',context)
