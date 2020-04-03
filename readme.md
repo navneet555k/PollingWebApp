@@ -123,4 +123,4 @@ My master password for pgadmin is navneet@123
 
 To start a project:-
 
-Django-admin startproject mysite
+`Django-admin startproject mysite`
