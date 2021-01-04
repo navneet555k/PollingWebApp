@@ -1,4 +1,4 @@
-# Polling Web App using Oauth #
+# Polling Web App using Oauth. #
 <img src="https://jdhonline.weebly.com/uploads/7/3/9/8/7398917/239178562_orig.png" height="44" width="48">  <img src="https://dyltqmyl993wv.cloudfront.net/assets/stacks/djangostack/img/djangostack-stack-220x234.png" height="44" width="48">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" height="44" width="48">    <img src="https://www.teknologisk.dk/_/cms.net/helpers/getmedia.ashx?q=55&src=cs&r=cover&w=1240&h=680&company_id=tek&media_id=16146" height="44" width="48">
 ## View Of The Project In Images ##
